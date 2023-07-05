@@ -5,8 +5,8 @@ import lombok.Data;
 public class Post {
     private int postIdx;
     private char title;
-    private char name;
-    private char date;
+    private char writer;
+    private char createdDate;
     private String content;
     private boolean delidx;
 }
